@@ -1,38 +1,36 @@
 package com.SticksandStones.SandS;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.Mod.Instance;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.SidedProxy;
 
 import com.SticksandStones.SandS.lib.Reference;
 import com.SticksandStones.SandS.proxies.CommonProxy;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.MOD_VERSION)
 public class SticksandStones {
 
-	@Instance("LL")
+	@Mod.Instance("LL")
 	public static SticksandStones instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
 
 	
-	@EventHandler
+	@Mod.EventHandler
 	public void Preinit(FMLPreInitializationEvent event){
 		
 	}
 	
-	@EventHandler
+	@Mod.EventHandler
 	public void init(FMLInitializationEvent event){
 		
 	}
 	
-	@EventHandler
+	@Mod.EventHandler
 	public void Postinit(FMLPostInitializationEvent event){
 		
 	}

@@ -37,7 +37,7 @@ if (ENV.BUILD_NUMBER) {
 minecraft {
     version = "1.7.10-10.13.3.1403-1.7.10"
     replace "@MODVERSION@", project.version
-    replaceIn "ModInfo.java"
+    replaceIn "Reference.java"
     replaceIn "package-info.java"
 }
 
@@ -90,7 +90,7 @@ jar {
 
 task apiJar(type: Jar) {
     from(sourceSets.main.java) {
-        include 'SticksandStones/api/**'
+        include 'com/SticksandStones/SandS/api/**'
         appendix = 'api'
         classifier = "api"
     }
