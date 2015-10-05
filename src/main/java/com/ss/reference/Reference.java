@@ -13,4 +13,5 @@ public class Reference {
 
 	public static final String SERVER_PROXY = "com.ss.proxy.CommonProxy";
 	public static final String CLIENT_PROXY = "com.ss.proxy.ClientProxy";
+	public static final String MOD_GUI_FACTORY = "com.ss.gui.ModGuiFactory";
 }
