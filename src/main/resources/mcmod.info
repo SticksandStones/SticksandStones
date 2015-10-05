@@ -1,0 +1,16 @@
+[
+{
+  "modid": "SticksandStones",
+  "name": "Sticks and Stones",
+  "description": "a pretty neat mod that does stuff",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Blorph", "Azhdev", "Crummy19", "Modmuss50", "Nucleria", "TheDoctorSoda", "Way2muchnoise", "Wiresegal"],
+  "credits": "",
+  "logoFile": "SticksAndStones.png",
+  "screenshots": [],
+  "dependencies": []
+}
+] 
