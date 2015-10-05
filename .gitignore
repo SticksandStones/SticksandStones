@@ -9,9 +9,6 @@ CREDITS-fml.txt
 options.txt
 MinecraftForge-Credits.txt
 MinecraftForge-License.txt
-lib/Mekanism*
-lib/Universal*
-lib/1.6.4/
 ._*
 *.txt
 *.log
@@ -42,9 +39,6 @@ lib/1.6.4/
 /nbproject/private/
 /nbbuild/
 output/
-gradlew
-gradlew.bat
-gradle/
 install.bat
 .cache
 build.xml
