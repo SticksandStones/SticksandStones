@@ -1,5 +1,9 @@
 #Item Localisation
-
+item.sticksandstones:kenaf_stalk.name=Kenaf Stalk
+item.sticksandstones:kenaf_fibres_raw.name=Raw Kenaf Fibres
+item.sticksandstones:kenaf_fibres.name=Kenaf Fibres
+item.sticksandstones:kenaf_seeds.name=Kenaf Seeds
+item.sticksandstones:kenaf_fabric.name=Kenaf Fabric
 
 #Block Localisation
 

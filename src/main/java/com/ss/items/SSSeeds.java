@@ -4,20 +4,22 @@ import com.ss.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemSeeds;
 import net.minecraft.item.ItemStack;
 
-public class SSBasicItem extends Item {
-	public SSBasicItem() {
-		super();
-		this.setCreativeTab(CreativeTabs.tabMisc);
+public class SSSeeds extends ItemSeeds {
+	public SSSeeds(Block cropBlock, Block soilBlock) {
+		super(cropBlock, soilBlock);
+		this.setCreativeTab(CreativeTabs.tabAllSearch);
+		this.setCreativeTab(CreativeTabs.tabMaterials);
 	}
 
 	@Override
 	public String getUnlocalizedName() {
-		return String.format("item.%s%s", Reference.RESOURCE_ID + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", com.ss.reference.Reference.RESOURCE_ID + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override
