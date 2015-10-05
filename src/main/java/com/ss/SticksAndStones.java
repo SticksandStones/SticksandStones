@@ -32,6 +32,6 @@ public class SticksAndStones {
 
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
-
+		// Swag.beginSwag();
 	}
 }
