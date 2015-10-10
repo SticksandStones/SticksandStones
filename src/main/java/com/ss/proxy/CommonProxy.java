@@ -1,9 +1,10 @@
 package com.ss.proxy;
 
-public abstract class CommonProxy {
-	public abstract void preInit();
+public class CommonProxy
+{
+	public static int RENDER_ID;
 
-	public abstract void init();
-
-	public abstract void postInit();
+	public void registerRenderers()
+	{
+	}
 }

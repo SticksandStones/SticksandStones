@@ -21,18 +21,19 @@ public class SticksAndStones {
 	public static CommonProxy proxy;
 
 	@Mod.EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
+	public void preInit(FMLPreInitializationEvent event)
+	{
 		// Config.init(event.getSuggestedConfigurationFile());
-
 		ModBlocks.init();
 		ModItems.init();
 	}
 
 	@Mod.EventHandler
-	public void Init(FMLPostInitializationEvent event) {
+	public void Init(FMLPostInitializationEvent event)
+	{
 		ModRecipes.init();
 		ModOreDictionary.init();
-
+		proxy.registerRenderers();
 	}
 
 	@Mod.EventHandler
